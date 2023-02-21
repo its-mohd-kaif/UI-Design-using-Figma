@@ -1,0 +1,42 @@
+/* CSS for header component */
+.header {
+  width: 964px;
+  margin-top: 40px;
+}
+
+/* CSS for make main container */
+.container {
+  display: flex;
+  margin: auto;
+  width: 964px;
+  column-gap: 24px;
+}
+
+/* Media Query for 950px */
+@media screen and (max-width: 950px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    overflow-y: auto;
+  }
+
+  .header {
+    width: 570px;
+  }
+}
+
+/* Media Query for 580px */
+@media screen and (max-width: 580px) {
+  .container {
+    width: 80%;
+  }
+
+  .header {
+    width: 90%;
+  }
+  
+  .cardContainer {
+    width: auto;
+  }
+}

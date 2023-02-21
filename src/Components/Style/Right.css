@@ -1,0 +1,40 @@
+/* Right Card Container CSS */
+.cardContainer2 {
+  width: 370px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  padding: 20px;
+}
+/* Table CSS */
+table {
+  width: 100%;
+}
+
+.tblLeftTxt {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4f4f4f;
+  margin-bottom: 12px;
+}
+
+.tblRightTxt {
+  text-align: right;
+  color: #4f4f4f;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+/* Payment Button CSS */
+.payBtn {
+  width: 100%;
+  font-weight: 700;
+  font-size: 16px;
+  background: linear-gradient(137.27deg, #2f88ff 19.41%, #1d68cd 65.49%);
+  box-shadow: 0px 4px 4px rgba(14, 53, 191, 0.25);
+  border-radius: 6px;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin-top: 17px;
+}

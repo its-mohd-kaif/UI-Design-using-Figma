@@ -1,0 +1,47 @@
+/* CSS for card */
+.cardContainer {
+  width: 570px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  padding: 20px;
+}
+
+/* CSS for card elements */
+.cardContainer__item {
+  width: 528px;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+/* Background opacity effect */
+.cardContainer-background {
+  background-color: rgb(22, 96, 207, 0.1);
+  border: 1px solid #1660cf;
+  border-radius: 4px;
+}
+
+.unselectDiv {
+  margin-top: 15px;
+  border: 1px solid #b2bcca;
+  border-radius: 4px;
+}
+
+/* Radio button CSS */
+.radioLabel {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+/* Fade Text CSS */
+.fadeText {
+  font-size: 14px;
+  color: #4f4f4f;
+  width: 330px;
+  margin-left: 25px;
+}
+
+/* CARDS  */
+.paymentCards {
+  margin-left: 115px;
+}
