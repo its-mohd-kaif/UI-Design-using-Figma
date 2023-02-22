@@ -30,36 +30,41 @@ function BillingAddress() {
             Billing Address
           </div>
           <TextField
-            style={{ width: "255px" }}
+            className="textHalf"
             id="outlined-controlled"
             label="First Name"
             defaultValue="Alex"
           />
           <TextField
-            style={{ width: "255px", marginLeft: "18px" }}
+            style={{ marginLeft: "18px" }}
+            className="textHalf"
             id="outlined-uncontrolled"
             label="Last Name"
             defaultValue="Driver"
           />
           <TextField
-            style={{ width: "528px", marginTop: "30px" }}
+            style={{ marginTop: "30px" }}
+            className="textFull"
             id="outlined-uncontrolled"
             label="Email Address"
             defaultValue="username@gmail.com"
           />
           <TextField
-            style={{ width: "528px", marginTop: "15px" }}
+            style={{ marginTop: "15px" }}
+            className="textFull"
             id="outlined-uncontrolled"
             label="Street Address"
             defaultValue=" "
           />
           <TextField
-            style={{ width: "528px", marginTop: "15px" }}
+            style={{marginTop: "15px" }}
+            className="textFull"
             id="outlined-uncontrolled"
           />
 
           <TextField
-            style={{ width: "255px", marginTop: "30px" }}
+            style={{marginTop: "30px" }}
+            className="textHalf"
             id="outlined-select-currency"
             select
             label="State/Province"
@@ -72,19 +77,22 @@ function BillingAddress() {
             ))}
           </TextField>
           <TextField
-            style={{ width: "255px", marginLeft: "18px", marginTop: "30px" }}
+            style={{marginLeft: "18px", marginTop: "30px" }}
+            className="textHalf"
             id="outlined-uncontrolled"
             label="City"
             defaultValue="San Diego"
           />
           <TextField
-            style={{ width: "255px", marginTop: "30px" }}
+            style={{marginTop: "30px" }}
+            className="textHalf"
             id="outlined-controlled"
             label="Zip/Postal Code"
             defaultValue="22434"
           />
           <TextField
-            style={{ width: "255px", marginLeft: "18px", marginTop: "30px" }}
+            style={{marginLeft: "18px", marginTop: "30px" }}
+            className="textHalf"
             id="outlined-uncontrolled"
             label="Phone"
             defaultValue="+ 123 456 789 111"

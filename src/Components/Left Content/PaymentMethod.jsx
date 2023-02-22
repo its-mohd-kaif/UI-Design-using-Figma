@@ -74,19 +74,22 @@ function PaymentMethod() {
           </div>
           <main style={{ padding: "15px" }}>
             <TextField
-              style={{ width: "240px", marginTop: "15px" }}
+              style={{ marginTop: "15px" ,marginRight:"18px"}}
+              className="inputField"
               id="outlined-controlled"
               label="Card number"
               defaultValue="1234 5678 9101 3456"
             />
             <TextField
-              style={{ width: "240px", marginLeft: "18px", marginTop: "15px" }}
+              style={{ marginTop: "15px" }}
+              className="inputField"
               id="outlined-uncontrolled"
               label="Expiration Date"
               defaultValue="MM/YY"
             />
             <TextField
-              style={{ width: "240px", marginTop: "30px" }}
+              style={{ marginTop: "30px" }}
+              className="inputField"
               id="outlined-controlled"
               label="Card Security Code"
               defaultValue="***"

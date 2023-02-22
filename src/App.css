@@ -17,10 +17,8 @@
   .container {
     display: grid;
     grid-template-columns: auto;
-    width: 100%;
-    overflow-y: auto;
+    width: auto;
   }
-
   .header {
     width: 570px;
   }

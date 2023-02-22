@@ -6,6 +6,13 @@
   padding: 20px;
 }
 
+/* CSS For Text Fields */
+.textHalf {
+  width: 255px;
+}
+.textFull {
+  width: 528px;
+}
 /* CSS for card elements */
 .cardContainer__item {
   width: 528px;
@@ -44,4 +51,33 @@
 /* CARDS  */
 .paymentCards {
   margin-left: 115px;
+}
+.inputField {
+  width: 240px;
+}
+
+/* Media Quert  */
+@media screen and (max-width: 634px) {
+  .cardContainer {
+    width: auto;
+  }
+  .textHalf {
+    width: 47%;
+  }
+  .textFull {
+    width: 98%;
+  }
+  .cardContainer__item {
+    width: auto;
+  }
+  .fadeText {
+    width: auto;
+  }
+  .paymentCards {
+    margin-left: 3em;
+  }
+  .inputField{
+    width: 97%;
+    margin-left: 18px;
+  }
 }
