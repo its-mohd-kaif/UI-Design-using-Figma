@@ -1,6 +1,6 @@
 import React from "react";
 import OrderReview from "./OrderReview";
-import "../Style/Right.css";
+import "../style/Right.css";
 import Discount from "./Discount";
 import BillingSummary from "./BillingSummary";
 function RightContainer() {

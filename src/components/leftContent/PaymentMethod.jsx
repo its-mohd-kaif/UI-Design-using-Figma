@@ -1,11 +1,11 @@
 import { TextField } from "@mui/material";
 import React from "react";
-import pm1 from "../../Images/pm-1.png";
-import pm2 from "../../Images/pm-2.png";
-import pm3 from "../../Images/pm-3.png";
-import pm4 from "../../Images/pm-4.png";
-import pm5 from "../../Images/pm-5.png";
-import pm6 from "../../Images/pm-6.png";
+import pm1 from "../../images/pm-1.png";
+import pm2 from "../../images/pm-2.png";
+import pm3 from "../../images/pm-3.png";
+import pm4 from "../../images/pm-4.png";
+import pm5 from "../../images/pm-5.png";
+import pm6 from "../../images/pm-6.png";
 function PaymentMethod() {
   // Payment Method Component
   return (

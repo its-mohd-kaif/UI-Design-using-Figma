@@ -1,6 +1,6 @@
-import Header from "./Components/Header/Header";
-import LeftContainer from "./Components/Left Content/LeftContainer";
-import RightContainer from "./Components/Right Content/RightContainer";
+import Header from "./components/header/Header";
+import LeftContainer from "./components/leftContent/LeftContainer";
+import RightContainer from "./components/rightContent/RightContainer";
 import "./App.css";
 function App() {
   return (

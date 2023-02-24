@@ -1,7 +1,7 @@
 import { TextField } from "@mui/material";
 import React from "react";
-import up from "../../Images/up.png";
-import logo from "../../Images/norton.png";
+import up from "../../images/up.png";
+import logo from "../../images/norton.png";
 function BillingSummary() {
   // Billing Summary Component
   return (

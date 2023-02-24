@@ -1,6 +1,6 @@
 import React from "react";
 import BillingAddress from "./BillingAddress";
-import "../Style/Left.css";
+import "../style/Left.css";
 import ShippingMethod from "./ShippingMethod";
 import PaymentMethod from "./PaymentMethod";
 function LeftContainer() {

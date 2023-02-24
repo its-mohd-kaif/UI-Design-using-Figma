@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from "../../Images/ship-img1.png";
-import img2 from "../../Images/ship-img2.png";
+import img1 from "../../images/ship-img1.png";
+import img2 from "../../images/ship-img2.png";
 function ShippingMethod() {
   // Shipping Method Component
   return (

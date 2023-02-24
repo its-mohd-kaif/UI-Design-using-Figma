@@ -1,9 +1,9 @@
 import React from "react";
-import down from "../../Images/down.png";
-function OrderReview() {
-  // Order Review Component
+import down from "../../images/down.png";
+function Discount() {
+  // Discount Component
   return (
-    <section style={{ marginTop: "46.5px" }}>
+    <section style={{ marginTop: "15px" }}>
       <main className="cardContainer2">
         <div className="d-flex justify-content-between">
           <div
@@ -12,18 +12,15 @@ function OrderReview() {
               fontWeight: "700",
             }}
           >
-            Order Review
+            Discount Codes
           </div>
           <div>
             <img src={down} alt="down" />
           </div>
-        </div>
-        <div style={{ marginTop: "4px", fontSize: "12px" }}>
-          3 items in card
         </div>
       </main>
     </section>
   );
 }
 
-export default OrderReview;
+export default Discount;
